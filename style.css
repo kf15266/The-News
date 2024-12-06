@@ -1,0 +1,177 @@
+/*#region Nav */
+
+.dropdown{
+    position: fixed;
+    display: inline-block;
+    background-color: midnightblue ;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #aaa;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: midnightblue;
+
+    
+    padding: 20px 20px;
+    padding-right: 25px;
+    border: 1px black;
+    z-index: 1;  
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+li a {
+    display: block;
+    width: 60px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+li a.active {
+    background-color: aliceblue;
+    color: midnightblue;
+}
+li a:hover:not(.active){
+    background-color: cornflowerblue;
+    color: black;
+}
+.menu {
+    width: 300px;
+    height: 50px;
+    background-color: midnightblue;
+    margin: 6px 0;
+}
+
+/* #endregion */
+/* #region Logo */
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin: 0;
+    background-color: rgb(245, 245, 245);
+    
+}
+
+/* #endregion */
+/* #region news home */
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: midnightblue;
+  }
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 70%;
+    
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .fakeimg {
+    background-color:aliceblue;
+    width: 100%;
+    padding: 10px;
+    float: left;
+    height:200px
+    display: flex;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+     background-color: white;
+     padding: 25px;
+     margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: midnightblue;
+    margin-top: 20px;
+  }
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* #region phone */
+  @media screen and (max-width: 600px) {
+    .leftcolumn {
+      width: 110%;
+    }
+    .rightcolumn {
+      display: none;
+    }
+  }
+ 
+ 
+  
+ 
+  
+/* #endregion */
+/* #endregion */
+
+
+/* #region ads */
+
+
+.ad {
+  background-color: aliceblue;
+  padding: 10%;
+
+  
+}
+/* #endregion */
+
+
+/*Footer*/
+
+.footer {
+  color: aliceblue;
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: auto auto auto;
+  gap: 1%;
+  text-decoration: none;
+  background-color: aliceblue;
+  
+ 
+}
+
+.end{
+  background-color: aliceblue;
+  padding: 0.5%;
+  text-align: center;
+}
+.heve {
+  text-align: center;
+  color: aliceblue;
+}
